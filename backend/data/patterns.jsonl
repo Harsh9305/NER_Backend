@@ -1,0 +1,8 @@
+{"label": "VLAN", "pattern": [{"LOWER": "vlan"}, {"IS_DIGIT": true}]}
+{"label": "VLAN", "pattern": [{"LOWER": "vlanid"}, {"IS_DIGIT": true}]}
+{"label": "LINE", "pattern": [{"LOWER": "line"}, {"IS_DIGIT": true}]}
+{"label": "LINE", "pattern": [{"TEXT": {"REGEX": "line\\d+"}}]}
+{"label": "FORWARDER", "pattern": [{"TEXT": "1:1"}, {"LOWER": "forwarder"}]}
+{"label": "FORWARDER", "pattern": [{"TEXT": "n:1"}, {"LOWER": "forwarder"}]}
+{"label": "FORWARDER", "pattern": [{"LOWER": "residential"}, {"LOWER": "bridge"}]}
+{"label": "PBIT", "pattern": [{"LOWER": "pbit"}, {"IS_DIGIT": true}]}
